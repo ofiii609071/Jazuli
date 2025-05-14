@@ -1,5 +1,10 @@
 # 📊 Iris Dataset Visualization
 
+## 👥 Kelompok: Data Explorers
+### Anggota Kelompok: E
+- Ahmad Jazuli Rofi
+- M. Yuzril Faizin
+
 This Jupyter Notebook provides a simple and intuitive visualization of the **Iris dataset** using tools from the Python data science ecosystem.
 
 ## 📁 File: `Untitled4.ipynb`
