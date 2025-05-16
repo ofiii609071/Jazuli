@@ -1,62 +1,58 @@
-# 📊 Iris Dataset Visualization
 
-## 👥 Kelompok: Data Explorers
-### Anggota Kelompok: E
-- Ahmad Jazuli Rofi
-- M. Yuzril Faizin
+# 📊 Visualisasi Dataset Iris
 
-This Jupyter Notebook provides a simple and intuitive visualization of the **Iris dataset** using tools from the Python data science ecosystem.
+Notebook Jupyter ini menyediakan visualisasi sederhana dan intuitif dari **dataset Iris** menggunakan alat-alat dari ekosistem data science Python.
 
-## 📁 File: `Untitled4.ipynb`
+## 📁 Berkas: `Untitled4.ipynb`
 
-## 🧰 Dependencies
+## 🧰 Ketergantungan
 
-Make sure you have the following Python packages installed:
+Pastikan Anda telah menginstal paket-paket Python berikut:
 
 ```bash
 pip install pandas seaborn matplotlib scikit-learn
 ```
 
-## 📌 Features
+## 📌 Fitur
 
-1. **Loading the Iris Dataset**  
-   Using `sklearn.datasets.load_iris`, the dataset is loaded into a Pandas DataFrame for easier manipulation.
+1. **Memuat Dataset Iris**  
+   Menggunakan `sklearn.datasets.load_iris`, dataset dimuat ke dalam DataFrame Pandas untuk mempermudah manipulasi data.
 
-2. **Pair Plot Visualization**  
-   Uses `seaborn.pairplot` to visualize pairwise relationships between all features, colored by species (target).
+2. **Visualisasi Pair Plot**  
+   Menggunakan `seaborn.pairplot` untuk memvisualisasikan hubungan pasangan antar fitur, diwarnai berdasarkan spesies (target).
 
-3. **3D PCA Visualization**  
-   Applies Principal Component Analysis (PCA) to reduce the dimensionality of the data to 3D and visualizes it using a 3D scatter plot from `matplotlib`.
+3. **Visualisasi PCA 3D**  
+   Menerapkan Analisis Komponen Utama (PCA) untuk mereduksi dimensi data menjadi 3D dan memvisualisasikannya menggunakan plot sebar 3D dari `matplotlib`.
 
-   - Axes represent the first three principal components.
-   - Points are colored based on the target class (species).
-   - Includes a legend indicating the class labels.
+   - Sumbu mewakili tiga komponen utama pertama.
+   - Titik-titik diwarnai berdasarkan kelas target (spesies).
+   - Termasuk legenda yang menunjukkan label kelas.
 
-## 📸 Sample Outputs
+## 📸 Contoh Output
 
 - **Pair Plot:**  
-  Helps understand correlation and class separability.
+  Membantu memahami korelasi dan pemisahan antar kelas.
 
-- **3D PCA Plot:**  
-  Aids in visualizing the dataset in reduced dimensional space while preserving variance.
+- **Plot PCA 3D:**  
+  Membantu visualisasi dataset dalam ruang berdimensi rendah sambil mempertahankan variasi data.
 
-## ▶️ How to Use
+## ▶️ Cara Menggunakan
 
-1. Clone this repository:
+1. Kloning repositori ini:
    ```bash
    git clone https://github.com/your-username/iris-visualization.git
    cd iris-visualization
    ```
 
-2. Open the notebook:
+2. Buka notebook-nya:
    ```bash
    jupyter notebook Untitled4.ipynb
    ```
 
-3. Run all cells to see the visualizations.
+3. Jalankan semua sel untuk melihat visualisasinya.
 
-## 📚 Dataset Info
+## 📚 Info Dataset
 
-- 150 samples
-- 4 features: sepal length, sepal width, petal length, petal width
-- 3 classes: `setosa`, `versicolor`, `virginica`
+- 150 sampel
+- 4 fitur: panjang sepal, lebar sepal, panjang petal, lebar petal
+- 3 kelas: `setosa`, `versicolor`, `virginica`
